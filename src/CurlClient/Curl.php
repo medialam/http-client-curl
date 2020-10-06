@@ -7,7 +7,7 @@ namespace Serps\HttpClient\CurlClient;
 
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use Zend\Diactoros\Request;
+use Laminas\Diactoros\Request;
 use Serps\HttpClient\CurlClient\ResponseBuilder;
 
 /**

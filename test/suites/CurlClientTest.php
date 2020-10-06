@@ -8,9 +8,9 @@ use Serps\Core\Cookie\ArrayCookieJar;
 use Serps\Core\Cookie\Cookie;
 use Serps\Core\Http\Proxy;
 use Serps\HttpClient\CurlClient;
-use Zend\Diactoros\Request;
+use Laminas\Diactoros\Request;
 
-use Zend\Diactoros\Response;
+use Laminas\Diactoros\Response;
 
 /**
  * @covers Serps\HttpClient\CurlClient

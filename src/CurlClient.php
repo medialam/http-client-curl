@@ -16,7 +16,7 @@ use Serps\Core\UrlArchive;
 use Serps\HttpClient\CurlClient\CookieFile;
 use Serps\HttpClient\CurlClient\Curl;
 use Serps\HttpClient\CurlClient\ResponseBuilder;
-use Zend\Diactoros\Response;
+use Laminas\Diactoros\Response;
 
 class CurlClient implements HttpClientInterface
 {

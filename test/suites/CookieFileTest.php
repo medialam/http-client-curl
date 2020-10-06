@@ -10,7 +10,7 @@ use Serps\HttpClient\CurlClient\CookieFile;
 /**
  * @covers Serps\HttpClient\CurlClient\CookieFile
  */
-class CookieFileTest extends \PHPUnit_Framework_TestCase
+class CookieFileTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider curlSerializedCookiesDataProvider
